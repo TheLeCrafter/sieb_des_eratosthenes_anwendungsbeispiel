@@ -1,0 +1,12 @@
+{
+  "name": "sieb_des_eratosthenes",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "lazarus": "node lazarus_algorithm.js",
+    "sieb": "node sieb.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
