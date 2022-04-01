@@ -8,8 +8,7 @@ for (let i = 2; i <= maximumNumber; i++) {
 for (let i = 2; i <= maximumPrimeNumberNeeded; i++) {
     if (primeNumbers.includes(i)) {
         primeNumbers = primeNumbers.filter(number => {
-            if (number === i) return true;
-            else return number % i !== 0;
+            return number === i ? true : number % i !== 0;
         });
     }
 }
