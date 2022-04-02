@@ -1,7 +1,7 @@
 let startingTime = Date.now();
 let primeNumbers = [];
 let maximumNumber = 250000;
-let maximumPrimeNumberNeeded = Math.round(Math.sqrt(maximumNumber));
+let maximumPrimeNumberNeeded = Math.round(Math.sqrt(maximumNumber) + 1);
 for (let i = 2; i <= maximumNumber; i++) {
     primeNumbers.push(i);
 }
